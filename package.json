@@ -11,6 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "repository": "https://github.com/Grethanie/tv-show-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
