@@ -31,11 +31,11 @@ export default function Show() {
       ) : (
         <Container
           sx={{
-            display: "flex",
-            flexDirection: "column",
+            // display: "flex",
+            // flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "10vh",
+            padding: "5vh",
           }}
         >
           <Paper
@@ -46,7 +46,7 @@ export default function Show() {
               justifyContent: "center",
               bgcolor: "grey.200",
               alignItems: "center",
-
+              padding: "5vh",
               width: "70vw",
             }}
           >
