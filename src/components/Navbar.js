@@ -21,6 +21,9 @@ export default function Navbar() {
           <Button color="inherit" href="/Shows">
             Shows
           </Button>
+          <Button color="inherit" href="/Shows/Add">
+            Add Shows
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
