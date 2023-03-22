@@ -39,18 +39,23 @@ export default function Show() {
           }}
         >
           <Paper
+            maxheight="xl"
             sx={{
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
               bgcolor: "grey.200",
               alignItems: "center",
-              height: "70vh",
+
               width: "70vw",
             }}
           >
             <img src={show.posterUrl} alt={show.title} />
-            {show.title}
+            <h1>{show.title}</h1>
+            <p>{show.genre}</p>
+            <box sx={{ border: "10vh" }}>
+              <p sx={{ padding: "10vh" }}>{show.description}</p>
+            </box>
           </Paper>
         </Container>
       )}
