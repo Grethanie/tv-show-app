@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 import { TextField, Paper, Box, Button } from "@mui/material/";
 
 export default function AddShows() {
-  let { show, setShow } = useState({});
+  let [show, setShow] = useState({});
 
   let handleSubmit = (e) => {
     e.preventDefault();
@@ -19,6 +19,7 @@ export default function AddShows() {
 
   let handleChange = (e) => {
     setShow({ ...show, [e.target.name]: e.target.value });
+    console.log(show);
   };
 
   return (
