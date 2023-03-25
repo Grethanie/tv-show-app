@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 import { TextField, Paper, Box, Button } from "@mui/material/";
 
 export default function AddShows() {
-  let [show, setShow] = useState({});
+  let [show, setShow] = useState(undefined);
 
   let handleSubmit = (e) => {
     e.preventDefault();
@@ -15,6 +15,7 @@ export default function AddShows() {
       },
       body: JSON.stringify(show),
     });
+    setShow(undefined);
   };
 
   let handleChange = (e) => {
@@ -45,6 +46,7 @@ export default function AddShows() {
               aria-label="title"
               label="Title"
               variant="filled"
+              value={show?.title || ""}
             />
             <TextField
               onChange={handleChange}
@@ -53,6 +55,7 @@ export default function AddShows() {
               aria-label="posterUrl"
               label="URL of Poster"
               variant="filled"
+              value={show?.posterUrl || ""}
             />
             <TextField
               onChange={handleChange}
@@ -61,6 +64,7 @@ export default function AddShows() {
               aria-label="genre"
               label="Genre"
               variant="filled"
+              value={show?.genre || ""}
             />
             <TextField
               onChange={handleChange}
@@ -69,6 +73,7 @@ export default function AddShows() {
               aria-label="network"
               label="Creator"
               variant="filled"
+              value={show?.network || ""}
             />
             <TextField
               multiline
@@ -79,6 +84,7 @@ export default function AddShows() {
               aria-label="description"
               label="Description"
               variant="outlined"
+              value={show?.description || ""}
             />
           </Box>
         </form>
