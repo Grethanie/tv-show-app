@@ -24,7 +24,7 @@ export default function Shows() {
       ) : (
         <Container>
           <h1>Shows</h1>
-          <Box sx={{ display: "flex", width: "80%" }}>
+          <Box sx={{ display: "flex", width: "90%" }}>
             <Grid container rowSpacing={7} columnSpacing={7}>
               {shows.map((show) => (
                 <Grid key={show.id} item xs={12} sm={6} md={4} lg={3}>

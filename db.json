@@ -11,38 +11,12 @@
       "description": "A dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy. The angry, grief-riddled woman tries to heal while rejecting anyone who tries to help her, but Fleabag continues to keep up her bravado through it all. Comic actress Phoebe Waller-Bridge stars as the titular character on the series, which is based on Waller-Bridge's 2013 one-woman show of the same name."
     },
     {
-      "id": 2,
-      "title": "Fleabags",
-      "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Fleabag_titlecard.png",
-      "genre": "comedy-drama",
-      "likes": 8,
-      "network": "BBC",
-      "creator": "Phoebe Waller-Bridge",
-      "description": "A dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy. The angry, grief-riddled woman tries to heal while rejecting anyone who tries to help her, but Fleabag continues to keep up her bravado through it all. Comic actress Phoebe Waller-Bridge stars as the titular character on the series, which is based on Waller-Bridge's 2013 one-woman show of the same name."
-    },
-    {
-      "title": "dkjfa",
-      "posterUrl": "sdkjf",
-      "genre": "askdjf",
-      "network": "alksdjf",
-      "description": "asdkjfaksd",
-      "id": 3
-    },
-    {
-      "title": "hello world",
-      "posterUrl": "/based",
-      "genre": "fun",
-      "network": "me",
-      "description": "do you like the swedish pepl",
-      "id": 4
-    },
-    {
-      "title": "hello",
-      "posterUrl": "workd",
-      "genre": "dkfds",
-      "network": "dkfdfj",
-      "description": "dsfjsdfhdjksf",
-      "id": 5
+      "title": "Foundation",
+      "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdNmyaQpdlG1WYYf1JmzJ1kC9M1XKCuFcHcu6S7HIT--fLwLvR",
+      "genre": "Sci-Fi",
+      "network": "Isaac Asimov",
+      "description": "Far in the future, The Empire is about to face a reckoning unlike anything else it's faced before: several millennia of chaos have been predicted by the galaxy's leading psycho-historian, Hari Seldon. But can The Empire offset the disaster before it begins?",
+      "id": 2
     }
   ]
 }
