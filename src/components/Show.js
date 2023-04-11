@@ -50,12 +50,17 @@ export default function Show() {
               width: "70vw",
             }}
           >
-            <img src={show.posterUrl} alt={show.title} />
+            <Box
+              component="img"
+              src={show.posterUrl}
+              alt={show.title}
+              sx={{ maxWidth: "50vw" }}
+            />
             <h1>{show.title}</h1>
             <p>{show.genre}</p>
-            <box sx={{ border: "10vh" }}>
+            <Box sx={{ border: "10vh" }}>
               <p sx={{ padding: "10vh" }}>{show.description}</p>
-            </box>
+            </Box>
           </Paper>
         </Container>
       )}
