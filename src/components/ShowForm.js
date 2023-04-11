@@ -4,9 +4,10 @@ import { TextField, Paper, Box, Button } from "@mui/material/";
 
 export default function ShowForm({ type }) {
   let [show, setShow] = useState(undefined);
+
   const { id } = useParams();
 
-  let handleSubmit = (e) => {
+  let handleSubmitAdd = (e) => {
     e.preventDefault();
     console.log("submitting");
 
@@ -30,9 +31,9 @@ export default function ShowForm({ type }) {
       <Paper
         sx={{ padding: "10vh", display: "flex", justifyContent: "center" }}
       >
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmitAdd}>
           <Button type="submit" variant="contained">
-            {type === "add" ? "Add" : "Edit"} Show
+            Add Show
           </Button>
           <Box
             sx={{
