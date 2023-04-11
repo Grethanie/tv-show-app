@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Navbar, Home, Shows, Show, NotFound, AddShows } from "./components";
+import { Navbar, Home, Shows, Show, NotFound, ShowForm } from "./components";
 
 function App() {
   return (
@@ -13,7 +13,8 @@ function App() {
           <Route path="/Shows" element={<Shows />} />
           <Route path="/Shows/:id" element={<Show />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/Shows/Add" element={<AddShows />} />
+          <Route path="/Shows/Add" element={<ShowForm type="add" />} />
+          <Route path="/Shows/:id/edit" element={<ShowForm type="edit" />} />
         </Routes>
       </BrowserRouter>
     </>

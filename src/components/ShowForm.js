@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react";
 import { TextField, Paper, Box, Button } from "@mui/material/";
 
-export default function AddShows() {
+export default function ShowForm({ type }) {
   let [show, setShow] = useState(undefined);
 
   let handleSubmit = (e) => {
@@ -30,7 +30,7 @@ export default function AddShows() {
       >
         <form onSubmit={handleSubmit}>
           <Button type="submit" variant="contained">
-            Add Show
+            {type === "add" ? "Add" : "Edit"} Show
           </Button>
           <Box
             sx={{
