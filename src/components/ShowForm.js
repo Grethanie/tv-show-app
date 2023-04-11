@@ -4,6 +4,7 @@ import { TextField, Paper, Box, Button } from "@mui/material/";
 
 export default function ShowForm({ type }) {
   let [show, setShow] = useState(undefined);
+  const { id } = useParams();
 
   let handleSubmit = (e) => {
     e.preventDefault();
