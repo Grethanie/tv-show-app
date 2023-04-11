@@ -11,7 +11,12 @@ export default function ShowCard({ show }) {
   return (
     <Card onClick={() => navigate(`/shows/${show.id}`)} sx={{ maxWidth: 345 }}>
       <CardActionArea>
-        <CardMedia component="img" image={show.posterUrl} alt={show.title} />
+        <CardMedia
+          component="img"
+          image={show.posterUrl}
+          alt={show.title}
+          sx={{ height: "100px" }}
+        />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {show.title}
