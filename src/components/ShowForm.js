@@ -1,4 +1,5 @@
 import { React, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import { TextField, Paper, Box, Button } from "@mui/material/";
 
 export default function ShowForm({ type }) {
