@@ -13,11 +13,9 @@ export default function Show() {
     console.log("onload useEffect");
     fetch(`http://localhost:4000/shows/${id}`)
       .then((res) => {
-        console.log(res);
         return res.json();
       })
       .then((data) => {
-        console.log(data);
         setShow(data);
         setLoading(false);
       })

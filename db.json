@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Fleabag",
-      "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Fleabag_titlecard.png",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjA4MzU5NzQxNV5BMl5BanBnXkFtZTgwOTg3MDA5NzM@._V1_FMjpg_UX1000_.jpg",
       "genre": "comedy-drama",
       "likes": 8,
       "network": "BBC",
@@ -41,6 +41,78 @@
       "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.[5][6] The series follows several simultaneous plot lines.[7] The first story arc follows a war of succession among competing claimants for control of the Iron Throne of the Seven Kingdoms, with other noble families fighting for independence from the throne. The second concerns the exiled scion's actions to reclaim the throne; the third chronicles the threat of the impending winter, as well as the legendary creatures and fierce peoples of the North.",
       "network": "David Benioff",
       "id": 5
+    },
+    {
+      "posterUrl": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-8388055876.jpg",
+      "title": "Ozark",
+      "genre": "Drama",
+      "description": "The Byrdes and their teenage kids Charlotte and Jonah look like, and mostly are, an ordinary family with ordinary lives. Except that husband/father Marty, a Chicago financial advisor, also serves as the top money-launderer for Mexico's second-largest drug cartel. When things go awry, he must uproot his family from the skyscrapers of Chicago and relocate to the lazy lake region of the Missouri Ozarks.",
+      "network": "Mark Williams",
+      "id": 6
+    },
+    {
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzU0MTFiNjUtNzIxMi00ZGZiLTgwZmUtMjIxOWNmMDE0NTE1XkEyXkFqcGdeQXVyNjg0NTcxMTg@._V1_FMjpg_UX1000_.jpg",
+      "title": "Derry Girls",
+      "genre": "Comedy",
+      "network": "Lisa McGee",
+      "description": "The personal exploits of a 16-year-old girl and her family and friends during the Troubles in the early 1990s in Northern Ireland.",
+      "id": 7
+    },
+    {
+      "title": "Killing",
+      "network": " Phoebe Waller-Bridge",
+      "genre": "Drama",
+      "description": "Eve is a bored, whip-smart security services operative whose desk-bound job doesn't fulfill her fantasies of being a spy. Villanelle is a talented killer, who clings to the luxuries her violent job affords her. These two fierce women, equally obsessed with each other, will go head to head in an epic game of cat and mouse, toppling the typical spy-action thriller.",
+      "posterUrl": "https://flxt.tmsimg.com/assets/p15086357_b_v13_ao.jpg",
+      "id": 8
+    },
+    {
+      "title": "Wednesday",
+      "posterUrl": "https://ntvb.tmsimg.com/assets/p23063500_b_h8_ad.jpg?w=1280&h=720",
+      "genre": "Comedy-Drama",
+      "description": "Wednesday Addams is expelled from her school after dumping live piranhas into the school's pool in retaliation for the boys' water polo team bullying her brother Pugsley. Consequently, her parents Gomez and Morticia Addams enroll her at their high school alma mater Nevermore Academy, a private school for monstrous outcasts, in the town of Jericho, Vermont. Wednesday's cold, emotionless personality and her defiant nature make it difficult for her to connect with her schoolmates and cause her to run afoul of the school's principal Larissa Weems. However, she discovers she has inherited her mother's psychic abilities which allow her to solve a local murder mystery.",
+      "network": "Alfred Gough, Miles Millar",
+      "id": 9
+    },
+    {
+      "description": "Hunters (ハンター, Hantā) are licensed, elite members of humanity who are capable of tracking down secret treasures, rare beasts, or even other individuals. They can also access locations that regulars cannot access. To obtain a license one must pass the rigorous annual Hunter Examination run by the Hunter Association, which has a success rate of less than one in a hundred-thousand. A Hunter may be awarded up to three stars: a single star for making \"remarkable achievements in a particular field\"; they may then be upgraded to two stars for \"holding an official position\" and mentoring another Hunter up to single star level; and finally upgraded to three stars for \"remarkable achievements in multiple fields\".",
+      "title": "Hunter x Hunter",
+      "genre": "Anime",
+      "network": "\tYoshihiro Togashi",
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Hunter_x_Hunter_cover_-_vol1.jpg",
+      "id": 10
+    },
+    {
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Arrested_Development.svg/500px-Arrested_Development.svg.png",
+      "title": "Arrested Development",
+      "genre": "Comedy",
+      "network": "Mitchell Hurwitz",
+      "description": "Meet the wildly dysfunctional Bluth family. This family was once at the height of real estate development in Orange County, California. But when the family business - the Bluth Company - goes bust, they're suddenly found penniless with their assets frozen. They move into their last remaining asset - the model home left over from their latest housing tract. Their luxury vehicles are replaced with a reminder of the family's former wealth: 'the stair car that accompanied their private jet'. The patriarch of the family is George Bluth - he's now in prison, and loving every minute of it. His wife Lucille and daughter Lindsay are spoiled socialites who can't handle getting kicked out of family restaurants. His son Buster is in his mid 30's and lives at home. His son George Oscar Bluth is a magician who started a group to get magicians to be taken seriously, and gets kicked out when his own tricks are revealed. Lindsay is married to a man named Tobias Funke, once a psychiatrist, who decides to become an actor. The only sane member of the family: Michael Bluth, along with his son George Michael, want nothing to do with the family business. But one bizarre circumstance after another keeps Michael and George Michael from leaving their eccentric family.\n",
+      "id": 11
+    },
+    {
+      "posterUrl": "https://m.media-amazon.com/images/I/51p0QKI6bRL._AC_UF894,1000_QL80_.jpg",
+      "title": "Avatar the Last Airbender",
+      "genre": "Cartoon",
+      "network": "\t Michael Dante DiMartino, Bryan Konietzko",
+      "description": "A century ago, young Avatar Aang, afraid of his new responsibilities, fled from his home and was forced into the ocean by a storm. He encased himself and his sky bison Appa in suspended animation in an iceberg near the South Pole. Shortly afterward, Fire Lord Sozin, the ruler of the Fire Nation, launched a world war to expand his nation's empire. Knowing that the Avatar must be an Air Nomad, he carried out a genocide against the Air Nomads with the help of a comet enhancing firebenders' power. A hundred years later, siblings Katara and Sokka, teenagers of the Southern Water Tribe, accidentally discover Aang and revive him.",
+      "id": 12
+    },
+    {
+      "title": "The Good Place",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmMxNjM0NmItNGU1Mi00OGMwLTkzMzctZmE3YjU1ZDE4NmFjXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_FMjpg_UX1000_.jpg",
+      "genre": "Comedy",
+      "network": "Michael Schur",
+      "description": "The series is centered on an afterlife in which humans are sent to \"the Good Place\" or \"the Bad Place\" after death. All humans are assigned a numerical score based on the morality of their conduct in life, and only those with the very highest scores are sent to the Good Place, where they enjoy eternal happiness with their every wish granted, guided by an artificial intelligence named Janet; all others experience an eternity of torture in the Bad Place.",
+      "id": 13
+    },
+    {
+      "title": "Top Gear",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzkwZDgwZmQtOWE4Yy00ZjgyLTgxZTYtZTRiMTg5MWY4NTFiXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+      "genre": "Comedy",
+      "network": "Jeremy Clarkson, Andy Wilman",
+      "description": "Top Gear is a British motoring magazine and factual television programme, it is a revival of the 1977–2001 show of the same name by Jeremy Clarkson and Andy Wilman for the BBC, and premiered on 20 October 2002. The programme focuses on the examination and reviewing of motor vehicles, primarily cars, though this was expanded upon after the broadcast of its earlier series to incorporate films featuring motoring-based challenges, special races, timed laps of notable cars, and celebrity timed laps on a course specially-designed for the relaunched programme. The programme drew acclaim for its visual and presentation style since its launch, which focused on being generally entertaining to viewers, as well as criticism over the controversial nature of its content.[2][3][4] The show was also praised for its occasionally-controversial humour and lore existing in not just the automotive community but in the form of internet memes and jokes.[5] The programme was aired on BBC Two until it was moved to BBC One for its twenty-ninth series in 2020.",
+      "id": 14
     }
   ]
 }
