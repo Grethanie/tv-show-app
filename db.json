@@ -17,6 +17,30 @@
       "network": "Isaac Asimov",
       "description": "Far in the future, The Empire is about to face a reckoning unlike anything else it's faced before: several millennia of chaos have been predicted by the galaxy's leading psycho-historian, Hari Seldon. But can The Empire offset the disaster before it begins?",
       "id": 2
+    },
+    {
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Schitt%27s_Creek_logo.svg",
+      "title": "Schitt's Creek",
+      "genre": "Comedy",
+      "network": "Dan Levy",
+      "description": "The wealthy Rose family—video store magnate Johnny (Eugene Levy), his wife and former soap opera actress Moira (Catherine O'Hara), and their pampered adult children David (Dan Levy) and Alexis (Annie Murphy)—lose their fortune after being defrauded by their business manager. They rebuild their lives with their sole remaining asset: a small, remote town named Schitt's Creek, which Johnny bought for David's birthday in 1991 as a joke.",
+      "id": 3
+    },
+    {
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Westworld_%28TV_series%29_title_card.jpg",
+      "title": "Westworld",
+      "genre": "Sci-Fi",
+      "network": "Lisa Joy, Jonathan Nolan",
+      "description": "In the 2050s, Delos Inc. operates several theme parks, including the American Old West-themed Westworld. Each environment is populated by the \"Hosts\", biomechanical robots indistinguishable from humans. The Hosts are programmed to fulfill the guests' every desire, and will engage in—and be subjected to—every kind of violent and/or sexual activity. However, the Hosts' programming makes it impossible for them to harm any living thing or allow the guests to be harmed. The park's operators create narratives for these Hosts to carry out while interacting with guests, but the Hosts' memories are wiped after each narrative is completed. Delos Inc. asserts that the Hosts, being machines and hence incapable of experiencing pain, cannot be truly harmed by these scenarios the same way that a human would be.",
+      "id": 4
+    },
+    {
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg",
+      "title": "Game of Thrones",
+      "genre": "Fantasy",
+      "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.[5][6] The series follows several simultaneous plot lines.[7] The first story arc follows a war of succession among competing claimants for control of the Iron Throne of the Seven Kingdoms, with other noble families fighting for independence from the throne. The second concerns the exiled scion's actions to reclaim the throne; the third chronicles the threat of the impending winter, as well as the legendary creatures and fierce peoples of the North.",
+      "network": "David Benioff",
+      "id": 5
     }
   ]
 }

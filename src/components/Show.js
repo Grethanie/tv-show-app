@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
-import { Container } from "@mui/material";
+import { Container, Button } from "@mui/material";
 
 export default function Show() {
   const { id } = useParams();
@@ -61,6 +61,9 @@ export default function Show() {
             <Box sx={{ border: "10vh" }}>
               <p sx={{ padding: "10vh" }}>{show.description}</p>
             </Box>
+            <Button color="inherit" href={`/shows/${id}/edit`}>
+              Edit
+            </Button>
           </Paper>
         </Container>
       )}

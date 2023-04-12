@@ -4,17 +4,9 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { createTheme, ThemeProvider } from "@mui/material/";
+
 
 export default function Navbar() {
-  const theme = createTheme({
-    palette: {
-      primary: {
-        main: "#3E7193",
-        secondary: "#F2F2F2",
-      },
-    },
-  });
 
   return (
     <ThemeProvider theme={theme}>
