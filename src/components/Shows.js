@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Paper, Grid, Box, Container } from "@mui/material";
+import { Grid, Box, Container } from "@mui/material";
 import ShowCard from "./ShowCard";
 
 export default function Shows() {
