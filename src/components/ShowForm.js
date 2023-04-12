@@ -1,11 +1,8 @@
 import { React, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
 import { TextField, Paper, Box, Button } from "@mui/material/";
 
-export default function ShowForm({ type }) {
+export default function ShowForm() {
   let [show, setShow] = useState(undefined);
-
-  const { id } = useParams();
 
   let handleSubmitAdd = (e) => {
     e.preventDefault();
@@ -49,7 +46,7 @@ export default function ShowForm({ type }) {
               aria-label="title"
               label="Title"
               variant="filled"
-              value={show?.title || ""}
+              value={show?.title || ""} // this if there is not a show.title, then ""
             />
             <TextField
               onChange={handleChange}
