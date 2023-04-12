@@ -16,17 +16,19 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Shows" element={<Shows />} />
-          <Route path="/Shows/:id" element={<Show />} />
-          <Route path="*" element={<NotFound />} />
-          <Route path="/Shows/Add" element={<ShowForm type="add" />} />
-          <Route path="/shows/:id/edit" element={<ShowForm type="edit" />} />
-        </Routes>
-      </BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <Navbar />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Shows" element={<Shows />} />
+            <Route path="/Shows/:id" element={<Show />} />
+            <Route path="*" element={<NotFound />} />
+            <Route path="/Shows/Add" element={<ShowForm type="add" />} />
+            <Route path="/shows/:id/edit" element={<ShowForm type="edit" />} />
+          </Routes>
+        </BrowserRouter>
+      </ThemeProvider>
     </>
   );
 }
