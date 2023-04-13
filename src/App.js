@@ -21,10 +21,11 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Shows" element={<Shows />} />
-            <Route path="/Shows/:id" element={<Show />} />
+            <Route path="/shows" element={<Shows />} />
+            <Route path="/shows/:id" element={<Show />} />
             <Route path="*" element={<NotFound />} />
-            <Route path="/Shows/Add" element={<ShowForm />} />
+            <Route path="/shows/add" element={<ShowForm />} />
+            <Route path="/shows/:id/edit" element={<ShowForm />} />
           </Routes>
         </BrowserRouter>
       </ThemeProvider>
