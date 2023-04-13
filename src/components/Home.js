@@ -1,8 +1,9 @@
-import React from "react";
+import { React } from "react";
 import logo from "../assets/images/logo.jpg";
 import { Box } from "@mui/material";
 
 export default function Home() {
+
   return (
     <>
       <Box
@@ -29,6 +30,7 @@ export default function Home() {
           add to the list, and see details of each show in one place.
         </p>
       </Box>
+
     </>
   );
 }
