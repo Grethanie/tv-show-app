@@ -1,9 +1,9 @@
-import { React } from "react";
+import { React, useState } from "react";
 import logo from "../assets/images/logo.jpg";
 import { Box } from "@mui/material";
+import WordForm from "./WordForm.js";
 
 export default function Home() {
-
   return (
     <>
       <Box
@@ -29,8 +29,8 @@ export default function Home() {
           Here you can see a selection of TV shows and their overviews,<br></br>
           add to the list, and see details of each show in one place.
         </p>
+        <WordForm />
       </Box>
-
     </>
   );
 }

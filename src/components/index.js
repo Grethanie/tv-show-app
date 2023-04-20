@@ -5,3 +5,4 @@ export { default as Show } from "./Show";
 export { default as NotFound } from "./NotFound";
 export { default as ShowCard } from "./ShowCard";
 export { default as ShowForm } from "./ShowForm";
+export { default as WordForm } from "./WordForm";

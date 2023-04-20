@@ -25,7 +25,6 @@ function App() {
             <Route path="/shows/:id" element={<Show />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/shows/add" element={<ShowForm />} />
-            <Route path="/shows/:id/edit" element={<ShowForm />} />
           </Routes>
         </BrowserRouter>
       </ThemeProvider>

@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react";
 import { TextField, Paper, Box, Button } from "@mui/material/";
 
-export default function ShowForm({ type }) {
+export default function ShowForm() {
   let [show, setShow] = useState(undefined);
 
   let handleSubmitAdd = (e) => {
