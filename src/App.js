@@ -18,15 +18,14 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <Navbar />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/shows" element={<Shows />} />
-            <Route path="/shows/:id" element={<Show />} />
-            <Route path="*" element={<NotFound />} />
-            <Route path="/shows/add" element={<ShowForm />} />
-          </Routes>
-        </BrowserRouter>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shows" element={<Shows />} />
+          <Route path="/shows/:id" element={<Show />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/shows/add" element={<ShowForm />} />
+        </Routes>
       </ThemeProvider>
     </>
   );
